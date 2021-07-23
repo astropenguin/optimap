@@ -1,2 +1,2 @@
 # optimap
-Optimized integrated intensity map method
+Optimized integrated intensity map method for spectral cubes
