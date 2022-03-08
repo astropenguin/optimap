@@ -8,16 +8,15 @@ readme = "README.md"
 homepage = "https://github.com/astropenguin/optimap"
 
 [tool.poetry.dependencies]
-python = ">= 3.7, < 3.9"
-astropy = "^4.2"
-numpy = "^1.19"
-matplotlib = "^3.2"
-scikit-image = "^0.16"
+python = ">=3.8, <3.11"
+astropy = { git = "https://github.com/astropy/astropy.git", branch = "v5.0.x" }
+numpy = "^1.22"
+scikit-image = "^0.19"
 
 [tool.poetry.dev-dependencies]
-black = "^21.7b"
-flake8 = "^3.9"
-pytest = "^6.2"
+black = "^22.1"
+matplotlib = "^3.5"
+pytest = "^7.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
